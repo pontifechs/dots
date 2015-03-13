@@ -1,0 +1,15 @@
+alias ll='ls -FAlh'
+
+alias dtest='rdmd -unittest -main'
+
+alias pg='sudo -u postgres /usr/local/pgsql/bin/pg_ctl -D /usr/local/pgsql/data'
+
+alias rustup='curl -s https://static.rust-lang.org/rustup.sh | sudo sh'
+
+alias dubmd='dub --compiler=dmd'
+
+alias x='xmodmap ~/.Xmodmap'
+
+alias 6='sudo archlinux-java set java-6-jdk'
+alias 8='sudo archlinux-java set java-8-openjdk'
+
