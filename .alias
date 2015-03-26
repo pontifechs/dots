@@ -13,3 +13,4 @@ alias x='xmodmap ~/.Xmodmap'
 alias 6='sudo archlinux-java set java-6-jdk'
 alias 8='sudo archlinux-java set java-8-openjdk'
 
+alias shotgun='kill -9'

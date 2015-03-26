@@ -85,4 +85,5 @@ source ~/.alias
 
 export ANT_OPTS='-Xms1536m -Xmx1536m -XX:PermSize=1024m -XX:MaxPermSize=2048m'
 export M2_HOME='/opt/maven'
+export JAVA_HOME='/usr/lib/jvm/default'
 
