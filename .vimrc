@@ -12,6 +12,8 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'chriskempson/base16-vim'
 Plugin 'reedes/vim-thematic'
 Plugin 'wting/rust.vim'
+Plugin 'kien/ctrlp.vim'
+Plugin 'scrooloose/nerdtree'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -76,5 +78,9 @@ set dir=/tmp
 " Buffer navigation
 nnoremap <C-n> :bnext<CR>
 nnoremap <C-p> :bprevious<CR>
+
+" CtrlP
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
 
 

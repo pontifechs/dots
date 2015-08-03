@@ -3,6 +3,7 @@ alias ll='ls -FAlh'
 alias dtest='rdmd -unittest -main'
 
 alias pg='sudo -u postgres /usr/local/pgsql/bin/pg_ctl -D /usr/local/pgsql/data'
+alias psql='sudo -u postgres /usr/local/pgsql/bin/psql'
 
 alias rustup='curl -s https://static.rust-lang.org/rustup.sh | sudo sh'
 
@@ -23,3 +24,5 @@ alias start-cure='cd ~/svn/BlueCloud/CuRe/war; mvn clean package cargo:run'
 alias start-cas='cd ~/svn/BlueCloud/CAS/war; mvn clean package cargo:run'
 
 alias mysql-team-rds='mysql -u bluecloudadmin --password=Un1v3rSalR3medy  -h "theurgy-rds.ckmreeotkjbg.us-east-1.rds.amazonaws.com"'
+
+alias slate='sudo mount.cifs \\\\slate\\Engineering /mnt/slate -o sec=ntlmv2,domain=SIRSI,username=mdudley'
