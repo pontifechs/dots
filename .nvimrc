@@ -1,1 +1,1 @@
-/home/mdudley/.vimrc
+.vimrc
