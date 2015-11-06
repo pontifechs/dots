@@ -20,8 +20,11 @@ alias shotgun='kill -9'
 
 # BlueCloud Aliases
 #
-alias start-cure='cd ~/svn/BlueCloud/CuRe/war; mvn clean package cargo:run'
-alias start-cas='cd ~/svn/BlueCloud/CAS/war; mvn clean package cargo:run'
+alias lrs='cd ~/svn/BlueCloud/LRS/war'
+alias cas='cd ~/svn/BlueCloud/CAS/war'
+alias cure='cd ~/git/zelda/cure'
+alias bcsp='cd ~/svn/BlueCloud/BCSP'
+alias start='mvn clean package cargo:run'
 
 alias mysql-team-rds='mysql -u bluecloudadmin --password=Un1v3rSalR3medy  -h "theurgy-rds.ckmreeotkjbg.us-east-1.rds.amazonaws.com"'
 
