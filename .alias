@@ -20,11 +20,11 @@ alias shotgun='kill -9'
 
 # BlueCloud Aliases
 #
-alias lrs='cd ~/svn/BlueCloud/LRS/war'
-alias cas='cd ~/svn/BlueCloud/CAS/war'
-alias cure='cd ~/git/zelda/cure'
 alias bcsp='cd ~/svn/BlueCloud/BCSP'
-alias lists='cd ~/git/zelda/BCLists'
+alias cas='cd ~/git/zelda/BC/cas/war'
+alias cure='cd ~/git/zelda/BC/cure'
+alias lists='cd ~/git/zelda/BC/BCLists'
+alias lrs='cd ~/svn/BlueCloud/LRS/war'
 
 alias start='mvn clean package cargo:run'
 
