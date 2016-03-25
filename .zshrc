@@ -51,7 +51,11 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/mdudley/.gem/ruby/2.1.0/bin:/home/mdudley/.npm-packages/bin"
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
+# Add ruby gems to path
+export PATH=$PATH":/home/matt/.gem/ruby/2.3.0/bin"
+# Add npm packages to path (primarily grunt I believe)
+export PATH=$PATH":/home/matt/.npm-packages/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment

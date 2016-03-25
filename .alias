@@ -20,14 +20,17 @@ alias shotgun='kill -9'
 
 # BlueCloud Aliases
 #
-alias bcsp='cd ~/svn/BlueCloud/BCSP'
+alias bcsp='cd ~/git/zelda/BC/bcsp/war'
+alias bcss='cd ~/git/zelda/BC/bcss/war'
 alias cas='cd ~/git/zelda/BC/cas/war'
-alias cure='cd ~/git/zelda/BC/cure'
-alias lists='cd ~/git/zelda/BC/BCLists'
+alias cure='cd ~/git/zelda/BC/cure/war'
+alias lists='cd ~/git/zelda/BC/lists'
 alias lrs='cd ~/svn/BlueCloud/LRS/war'
 
 alias start='mvn clean package cargo:run'
 
-alias mysql-team-rds='mysql -u bluecloudadmin --password=Un1v3rSalR3medy  -h "theurgy-rds.ckmreeotkjbg.us-east-1.rds.amazonaws.com"'
+alias space='emacs&'
 
-alias slate='sudo mount.cifs \\\\slate\\Engineering /mnt/slate -o sec=ntlmv2,domain=SIRSI,username=mdudley'
+alias install-head='target/elasticsearch-1.1.2/bin/plugin -install mobz/elasticsearch-head/1.1'
+
+source ~/.private-alias
